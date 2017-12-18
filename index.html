@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tower!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div id="content">
+
+		<div id="gameplay" class="col-xs-12">
+
+			<div class="row">
+					
+
+				<div id="Ad" class="col-xs-10">
+					PROTOTYPE VERSION
+				</div>
+					
+				<div id="Rules" class="col-xs-2">
+					
+				</div>
+
+
+				<div id="wrap" class="col-xs-12">
+					<div class="row">
+						
+						<div id="POne" class="playerStack turn col-xs-3">
+							<div style="color:white; font-weight: bold; background-color:black; width:100%;"> P1 </div>
+							<div class="row">
+								<!-- <div class="piece used col-xs-12">1</div>
+								<div class="piece used col-xs-12">2</div>
+								<div class="piece used col-xs-12">3</div>
+								<div class="piece used col-xs-12">4</div>
+								<div class="piece used col-xs-12">5</div>
+								<div class="piece used col-xs-12">6</div>
+								<div class="piece used col-xs-12">7</div>
+								<div class="piece used col-xs-12">8</div>
+								<div class="piece used col-xs-12">9</div>
+								<div class="piece used col-xs-12">10</div> -->
+							</div>
+						</div>
+						
+						<div id="gamePieces" class="stack col-xs-6">
+							<span style="color:white; font-weight: bold;"> PIECES </span>
+							<div class="row">
+								<!-- <div class="piece avalaible col-xs-6">1</div>
+								<div class="piece col-xs-6">2</div>
+								<div class="piece col-xs-6">3</div>
+								<div class="piece col-xs-6">4</div>
+								<div class="piece col-xs-6">5</div>
+								<div class="piece col-xs-6">6</div>
+								<div class="piece col-xs-6">7</div>
+								<div class="piece col-xs-6">8</div>
+								<div class="piece col-xs-6">9</div>
+								<div class="piece col-xs-6">10</div>
+								<div class="piece col-xs-6">11</div>
+								<div class="piece col-xs-6">12</div>
+								<div class="piece col-xs-6">13</div>
+								<div class="piece col-xs-6">14</div>
+								<div class="piece col-xs-6">15</div>
+								<div class="piece col-xs-6">16</div>
+								<div class="piece col-xs-6">17</div>
+								<div class="piece col-xs-6">18</div>
+								<div class="piece col-xs-6">19</div>
+								<div class="piece col-xs-6">20</div> -->
+							</div>
+						</div>
+						
+						<div id="PTwo" class="playerStack col-xs-3">
+							<div style="color:white; font-weight: bold; background-color:black; width:100%;"> P2 </div>
+							<div class="row">
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+
+		<div id="rulesUI" class="col-xs-12">
+			Rules <br /><br />
+
+			Each Player need to build a tower, the only way it's with numbers <br /><br />
+
+			The Next Piece is based on the last you picked <br /><br />
+
+			You can use a piece that Have a number that match (Ex: 7 and 17, both have 7 | 20 and 12, both have 2) <br /><br />
+
+			Another way is with Half or Double, but the Half only works with even (Ex: 7 and 14 or 10 and 5) <br /><br />
+
+			The objective is to keep building and clock the next player. <br /><br />
+
+			Good Luck <br /><br />
+		</div>
+		<div id="WinnerUI" class="col-xs-12">
+			<span id="nameWinner"> Player 1 Venceu </span>
+			<br />
+
+			<input type="button" value="Play Again" onclick="location.reload();">
+		</div>
+			
+
+	</div>
+	
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/data.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
